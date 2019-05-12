@@ -11,6 +11,14 @@
 #include <signal.h>
 #include <pthread.h>
 
+/* 
+  Menit   : 0-59
+  Jam     : 0-23
+  Tanggal : 1-31
+  Bulan   : 1-12
+  Hari    : 0-6 (mulai dari Minggu)
+*/
+
 typedef struct skedul
 {
     char min[4];
